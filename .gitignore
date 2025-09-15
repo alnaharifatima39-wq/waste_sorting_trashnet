@@ -1,0 +1,21 @@
+# Python / venv
+__pycache__/
+.venv/
+venv/
+env/
+ENV/
+*.pyc
+
+# Data and models (do not commit full datasets or trained models)
+data/
+models/
+data_sample/
+*.pth
+*.pt
+
+# Tools and OS
+.uv/
+uv.lock
+.vscode/
+.DS_Store
+*.log
