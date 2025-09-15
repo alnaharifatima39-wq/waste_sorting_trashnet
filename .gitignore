@@ -1,21 +1,24 @@
-# Python / venv
+# Python cache
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
 .venv/
 venv/
-env/
 ENV/
-*.pyc
+env/
 
-# Data and models (do not commit full datasets or trained models)
-data/
-models/
-data_sample/
-*.pth
-*.pt
-
-# Tools and OS
-.uv/
-uv.lock
+# IDE / editor
 .vscode/
+.idea/
 .DS_Store
+
+# Logs
 *.log
+
+# Large raw datasets (ignore everything inside data/, but keep src/data/)
+data/
+
+
