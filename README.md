@@ -20,7 +20,7 @@ A waste-sorting project that uses (dataset / model) to classify trash types and 
 | 1   |Fatima Osamah | Lead Developer | Integration,README, training              |
 | 2   |Maha Jamal    | Data Engineer  | Dataset collection & preprocessing        |
 | 3   |Hala Hesham   | ML Engineer    | Model development, testing                |
-| 4   |Afaf Abdulbaqi| visualize/ UI  | gui and web interface/ UI script          |
+| 4   |Afaf Abdulbaqi| UI dev Engineer| gui and web interface/ UI script          |
 
 # Project Requirements / Config
 This project uses `uv`. The project config lives in `pyproject.toml` and `uv.lock`.
@@ -132,6 +132,7 @@ uv run python app.py #streamlit web UI
 4. Commit changes: `git commit -m 'Add feature'`
 5. Push to branch: `git push origin feature-name`
 6. Submit a pull request
+
 
 
 
