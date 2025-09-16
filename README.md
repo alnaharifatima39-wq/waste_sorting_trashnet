@@ -113,10 +113,15 @@ uv run python app.py #streamlit web UI
 - Training Time: 277.75 minutes
 - Key Findings:
    1.Model Choice: ResNet18 was adapted for 6 waste categories (cardboard, glass, metal, paper, plastic, trash).
+
    2.Training Time: The model trained for 30 epochs in ~277.45 minutes on [CPU].
+
    3.Accuracy: Achieved ~90% accuracy on the test set, showing good generalization.
+
    4.Confusion Matrix Insights: Most misclassifications occurred between visually similar classes (e.g., cardboard vs. paper, plastic vs. glass).
+
    5.Custom Image Test: The classifier correctly predicted uploaded images, with clear probability distributions.
+
    6.Deployment Readiness: Both a desktop GUI and a Streamlit web app were implemented, allowing real-time classification from webcam or uploaded images.
 
 # Contributing
@@ -127,6 +132,7 @@ uv run python app.py #streamlit web UI
 4. Commit changes: `git commit -m 'Add feature'`
 5. Push to branch: `git push origin feature-name`
 6. Submit a pull request
+
 
 
 
