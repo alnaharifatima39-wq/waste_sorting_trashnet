@@ -78,7 +78,7 @@ waste_sorting_trashnet/
 │   |   └── plastic/
 │   |   └── trash/
 │   |
-│   ├── trashnet_split/ # Pre-split dataset
+│   ├── trashnet_split/
 │       └── train/
 │       └── test/
 │       └── val/
@@ -132,6 +132,7 @@ uv run python app.py #streamlit web UI
 4. Commit changes: `git commit -m 'Add feature'`
 5. Push to branch: `git push origin feature-name`
 6. Submit a pull request
+
 
 
 
